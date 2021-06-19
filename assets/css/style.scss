@@ -126,6 +126,7 @@ $blue: #33c6c7;
                 }
             }
             h6{
+                font-size: 14px;
                 span {
                     background-color: #4b5769;
                     padding: 5px 10px;
@@ -325,4 +326,10 @@ $blue: #33c6c7;
 }
 .author {
     padding-left: 30px;
+}
+.gg {
+    border-radius: 6px !important;
+}
+#name {
+    font-size: 22px;
 }

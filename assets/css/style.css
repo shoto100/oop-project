@@ -111,6 +111,10 @@ html {
   border-radius: 1px;
 }
 
+#header-wrapper .about-content-wrap .about-title h6 {
+  font-size: 14px;
+}
+
 #header-wrapper .about-content-wrap .about-title h6 span {
   background-color: #4b5769;
   padding: 5px 10px;
@@ -324,5 +328,13 @@ html {
 
 .author {
   padding-left: 30px;
+}
+
+.gg {
+  border-radius: 6px !important;
+}
+
+#name {
+  font-size: 22px;
 }
 /*# sourceMappingURL=style.css.map */
