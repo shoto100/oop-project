@@ -158,6 +158,12 @@ html {
   width: 700px;
 }
 
+.project-content-wrap .code {
+  margin-bottom: 20px;
+  border-radius: 6px;
+  width: 70%;
+}
+
 #email-wrapper {
   padding: 40px 0;
   margin-top: 40px;
