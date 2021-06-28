@@ -44,6 +44,10 @@ html {
   border-bottom: 2px solid #33c6c7;
 }
 
+.navbar-wrapper .dropdown-item {
+  color: #09192f !important;
+}
+
 #header-wrapper .header-content-wrap {
   height: 100vh;
 }
@@ -121,43 +125,37 @@ html {
   border-radius: 6px;
 }
 
-#project-wrapper {
+.project-content-wrap {
   padding: 20px 0;
   text-align: center;
 }
 
-#project-wrapper h1 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-#project-wrapper h1 span {
-  color: #33c6c7;
-}
-
-#project-wrapper h6 span {
-  background-color: #4b5769;
-  padding: 5px 10px;
-  border-radius: 6px;
-}
-
-#project-wrapper h4 {
+.project-content-wrap h4 {
   margin: 30px 0 40px;
 }
 
-#project-wrapper p {
-  color: #ccc;
-}
-
-#project-wrapper img {
-  height: 350px;
-  width: 700px;
+.project-content-wrap .diagram {
+  height: 750px;
+  width: 768px;
   margin-bottom: 20px;
   border-radius: 6px;
 }
 
-#project-wrapper a {
-  color: #33c6c7;
+.project-content-wrap p {
+  font-size: 22px;
+  background-color: #585b5f;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.project-content-wrap .two {
+  text-align: left;
+  margin: 40px;
+}
+
+.project-content-wrap .user {
+  border-radius: 6px;
+  width: 700px;
 }
 
 #email-wrapper {
@@ -197,81 +195,6 @@ html {
 }
 
 #footer-wrapper ul li a {
-  color: #33c6c7;
-}
-
-.project-content-wrap {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 50px 50px;
-}
-
-.project-content-wrap h2 {
-  text-align: center;
-}
-
-.project-content-wrap h2 span {
-  color: #33c6c7;
-}
-
-.project-content-wrap h4 a {
-  color: #33c6c7;
-}
-
-.project-content-wrap .card {
-  background-color: #172a45;
-  margin-top: 24px;
-}
-
-.project-content-wrap img {
-  height: 200px;
-}
-
-.project-content-wrap h6 span {
-  background-color: #4b5769;
-  padding: 5px 10px;
-  border-radius: 6px;
-  font-size: 13px;
-}
-
-.project-content-wrap p {
-  font-size: 14px;
-}
-
-.blog-content-wrap {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 50px 50px;
-  text-align: center;
-}
-
-.blog-content-wrap h2 span {
-  color: #33c6c7;
-}
-
-.blog-content-wrap .card {
-  background-color: #172a45;
-  margin-top: 24px;
-}
-
-.blog-content-wrap img {
-  height: 200px;
-}
-
-.blog-content-wrap h6 span {
-  background-color: #4b5769;
-  padding: 5px 10px;
-  border-radius: 6px;
-  font-size: 13px;
-}
-
-.blog-content-wrap p {
-  font-size: 14px;
-}
-
-.blog-content-wrap p a {
   color: #33c6c7;
 }
 
